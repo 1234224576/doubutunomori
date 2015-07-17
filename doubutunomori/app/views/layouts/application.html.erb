@@ -8,7 +8,66 @@
 </head>
 <body>
 
-<%= yield %>
+<body background="<%= asset_path "main_bg.png" %>">
+<div class="page">
+    <div class="title">
+        <div id="gamelogo"><%= image_tag('header_logo_game.png') %></div>
+        <div id="mainlogo"><%= image_tag('header_logo.png') %></div>
+        <div id="headrbg"><%= image_tag('header_bg.png') %></div>
+    </div>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#"><%= image_tag('gnav_01.png') %></a></li>
+            <li><a href="#"><%= image_tag('gnav_02.png') %></a></li>
+            <li><a href="#"><%= image_tag('gnav_03.png') %></a></li>
+            <li><a href="mypage"><%= image_tag('gnav_04.png') %></a></li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <div class="content">
+            <%= yield %>
+        </div>
+        <div class="sideMenu">
+            <div id="login">
+                <a href="signin"><%= image_tag('sidebar_btn_twitter.png') %></a>
+            </div>
+            <div id="ranking">
+                <a href="#"><%= image_tag('sidebar_ranking_head.png') %></a>
+            </div>
+            <div id="rankBox">
+                <ul>
+                <li><%= image_tag('ranking_no1.png') %>
+                <p>さかたさん<br />null村</p>
+                <div id="rankImage">
+                    <%= image_tag('sample.png') %>
+                </div>
+                </li>
+                <li><%= image_tag('ranking_no2.png') %>
+                <p>さかたさん<br />null村</p>
+                <div id="rankImage">
+                    <%= image_tag('sample.png') %>
+                </div>
+                </li>
+                <li><%= image_tag('ranking_no3.png') %>
+                <p>さかたさん<br />null村</p>
+                <div id="rankImage">
+                    <%= image_tag('sample.png') %>
+                </div>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="foot">
+        <%= image_tag('footer_bg_top.png') %>
+        <div id ="footercontent">
+            <br /><a href="#">トップ</a>　<a href="#">使い方</a>　<a href="#">お問い合わせ</a>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>

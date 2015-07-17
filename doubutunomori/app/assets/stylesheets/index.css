@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+body	{
+	margin: 0;
+	font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
+}
+
+.box .title  .menu .content .sideMenu.foot{
+	padding-left: 10px;
+	padding-right: 10px
+}
+.title #headrbg{
+    padding-left: 225px;
+    margin-top: -50px;
+    margin-bottom: 0px;
+}
+
+.page {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	width: 950px;
+	margin: 0 auto;
+}
+
+.menu {
+	margin-bottom: 5px;
+	width: 100%;
+}
+
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+.menu ul:after{
+	content: "";
+	display: block;
+	clear: both
+}
+.menu li a	{
+	display: block;
+	padding: 0px;
+	color: #000000;
+	font-size: 14px;
+	text-decoration: none
+}
+
+
+.menu li {
+	float: left;
+	width: auto
+}
+
+.box:after	{
+	content: "";
+	display: block;
+	clear: both
+}
+
+.content {
+	float: left;
+	width: 75%;
+	padding-right: 20px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+
+}
+
+.sideMenu{
+	float: left;
+	width: 25%;
+	padding-left: 10px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+#login{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+#ranking{
+	margin-bottom: 20px;
+}
+
+#rankBox ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#rankBox li a{
+	display :block;
+	padding :5px;
+}
+
+#rankBox li a{
+	border:none;
+}
+
+#rankBox {
+	float :left;
+}
+#rankBox{
+	padding-top:5px;
+	padding-left:30px;
+	padding-bottom: 20px;
+}
+#rankBox p{
+	float :left;
+	width:auto;
+	margin-left:0px;
+	margin-top: -50px;
+	padding-left: 60px;
+	font-size:14px;
+	text-decoration: none;
+}
+
+.foot #footercontent{
+    margin-top: -7px;
+    width: 100%;
+    height: 100px;
+    background-color: #663300;
+    font-size: 12px;
+    text-align: center;
+}
+
+.foot #footercontent a{
+    color: white;
+    border-bottom: white;
+    border-width:0px;
+    border-bottom-width:2px;
+    border-style:dotted;
+    margin-left: 5%;
+    vertical-align: middle;
+}
+.foot #footercontent a:link{
+    text-decoration:none;
+    border-color:#0000D4;
+}

@@ -1,2 +1,27 @@
-<h1>Toppage#index</h1>
-<p>Find me in app/views/toppage/index.html.erb</p>
+
+
+<div class="infomation">
+    <%= image_tag('index_about_head.png') %>
+    <p>
+        どうぶつの森みんなのむらじまんではTwitterアカウントを使って皆さんの村、家を投稿し、<br />
+        共有できるサービスです。Twitterアカウントをお持ちの方は今すぐはじめられます。<br />
+        最新作である「とびだせどうぶつの森」に限らず全てのどうぶつの森シリーズを対象としております。<br />
+        みなさんのじまんの村、家をご紹介下さい。
+    </p>
+</div>
+
+<div calss="main">
+    <div style="background-image : url(<%= asset_path "bg_head.png" %>)" id="head">
+        <p>新着の村</p>
+    </div>
+    <div id="home_content">
+        <p>未定</p>
+    </div>
+
+    <div style="background-image : url(<%= asset_path "bg_head.png" %>)" id="head">
+        <p>新着の家</p>
+    </div>
+    <div id="home_content">
+        <p>未定</p>
+    </div>
+</div>
